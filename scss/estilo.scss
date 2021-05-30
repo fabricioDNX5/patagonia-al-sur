@@ -1,4 +1,241 @@
-h1{
-    color: aqua;
+/* ACTIVIDADES */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  div{
+      button{
+                a{
+        color: white; 
+        text-decoration: none;
+
+        }
+        
+      }
+      
+  }
+
+  /* ESTRUCTURA SECCION PROVINCIAS BEM */
+
+  .prov{
+    background-color: #E5E5E5;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 500px 500px 500px 500px 500px;
+    grid-template-areas: "rionegro"
+                        "neuquen"
+                        "chubut"
+                        "santacruz"
+                        "tierradelfuego"               
     
+    ;
+    justify-content: center;
+
+    &__rionegro{
+
+        grid-area: rionegro; 
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+        grid-template-areas:
+                            "imagen descripcion";
+
+        #imagen1{
+                max-width: 100%;
+                height: 100%;
+                padding: 2%;
+                grid-area: imagen;
+        }
+                                
+                                
+                                
+        #descripcion1{
+                      max-width: 100%;
+                      height: 100%;
+                      grid-area: descripcion;
+                      padding: 90px 20px 90px 50px;
+        }
+    
+        
+    }
+    
+    &__neuquen{
+        grid-area: neuquen;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        grid-template-areas: "descripciondos imagendos";
+        
+
+        #imagen2{
+            padding: 2%;
+            max-width: 100%;
+            height: 100%;
+            grid-area: imagendos;
+        }
+        
+        #descripcion2{
+            grid-area: descripciondos;
+            padding: 90px 20px 90px 50px;
+        }
+      
+    }
+
+    &__chubut{
+        grid-area: chubut;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+        grid-template-areas: "imagen3 descripcion3";
+
+        #imagen3{
+            max-width: 100%;
+            height: 100%;
+            padding: 2%;
+            grid-area: imagen3;
+        }
+         
+        #descripcion3{
+            grid-area: descripcion3;
+            padding: 90px 20px 90px 50px;
+        }
+    
+    }
+
+    &__santacruz{
+        grid-area: santacruz;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100%;
+        grid-template-areas: "descripcion4 imagen4";
+
+        #imagen4{
+            max-width: 100%;
+            height: 100%;
+            padding: 2%;
+            grid-area: imagen4;
+        
+        }
+        
+        #descripcion4{
+            grid-area: descripcion4;
+            padding: 90px 20px 90px 50px;
+        }
+    }
+
+    &__tierradelfuego{
+        grid-area: tierradelfuego;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+        grid-template-areas: "imagen5 descripcion5";
+
+        #imagen5{
+            max-width: 100%;
+            height: 100%;
+            padding: 2%;
+            grid-area: imagen5;
+        
+        }
+        
+        #descripcion5{
+            grid-area: descripcion5;
+            padding: 90px 20px 90px 50px;
+        }
+        
+    
+    }
+
+
+}
+
+.info{
+        display: grid;
+        justify-content: center;
+        padding: 90px 0 50px 0;
+        background-color: #FCA311;
+
+    &__h2{
+            text-align: center;
+            font-size: 300%;
+            font-family: 'Roboto', sans-serif;
+            
+            
+        
+    }
+    &__link{
+            text-align: center;
+            text-decoration: none;
+            color: #14213D;
+            font-family: 'Roboto', sans-serif;
+            
+            font-size: 200%;
+    }
+        
+        
+}
+
+  
+/* INDEX */
+
+.home{
+
+    background-color: #E5E5E5;
+
+
+    .home__banner{
+
+        width: 100%;
+        
+        
+        #banner{
+            width: 100%;
+            margin-top: 10px;
+            padding: 25px;
+        }
+
+    }
+
+    .home__descripcion{
+
+        color: rgb(0, 0, 0);
+        margin: 15%;
+        margin-bottom: 0%;
+        margin-top: 3%;
+
+        
+
+        .home__descripcion__parrafos{
+            font-size: 200%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: initial;
+            padding-bottom: 10px;
+        }
+
+    }
+
+    
+
+    .home__opciones{
+
+        background-color:#FFFFFF;
+        
+        .lead{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
 }

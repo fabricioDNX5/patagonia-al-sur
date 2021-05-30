@@ -21,35 +21,13 @@
     padding-bottom: 100px;
  }
 
-#info{
-    display: grid;
-    justify-content: center;
-    padding: 90px 0 50px 0;
-    background-color: #FCA311;
-    
-    
-    }
-h2{
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Roboto', sans-serif;
-    
-    
-
-}
-#linkinfo{
-    text-align: center;
-    text-decoration: none;
-    color: #14213D;
-    font-family: 'Roboto', sans-serif;
-    
-    font-size: 200%;
-}
 
 
 
 
-/* ESTRUCTURA PROVINCIAS */
+
+
+
 
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -57,143 +35,6 @@ p{
     
 }
 
-#estructura{
-    background-color: #E5E5E5;
-    display: grid;
-    grid-template-columns: 90%;
-    grid-template-rows: 500px 500px 500px 500px 500px;
-    grid-template-areas: "rionegro"
-                        "neuquen"
-                        "chubut"
-                        "santacruz"
-                        "tierradelfuego"               
-    
-    ;
-    justify-content: center;
-    
-}
-
-
-#rionegro{
-
-    grid-area: rionegro; 
-    display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 100%;
-    grid-template-areas:
-                            "imagen descripcion";
-
-    
-}
-
-#imagen1{
-    max-width: 100%;
-    height: 100%;
-    padding: 2%;
-    grid-area: imagen;
-}
-
-
-
-#descripcion1{
-    max-width: 100%;
-    height: 100%;
-    grid-area: descripcion;
-    padding: 90px 20px 90px 50px;
-}
-
-
-
-
-
-#neuquen{
-    grid-area: neuquen;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 100%;
-    grid-template-areas: "descripciondos imagendos";
-    
-  
-}
-
-#imagen2{
-    padding: 2%;
-    max-width: 100%;
-    height: 100%;
-    grid-area: imagendos;
-}
-
-#descripcion2{
-    grid-area: descripciondos;
-    padding: 90px 20px 90px 50px;
-}
-
-#chubut{
-    grid-area: chubut;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 100%;
-    grid-template-areas: "imagen3 descripcion3";
-
-}
-
-#imagen3{
-    max-width: 100%;
-    height: 100%;
-    padding: 2%;
-    grid-area: imagen3;
-}
- 
-#descripcion3{
-    grid-area: descripcion3;
-    padding: 90px 20px 90px 50px;
-}
-
-#santacruz{
-    grid-area: santacruz;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 100%;
-    grid-template-areas: "descripcion4 imagen4";
-}
-
-#imagen4{
-    max-width: 100%;
-    height: 100%;
-    padding: 2%;
-    grid-area: imagen4;
-
-}
-
-#descripcion4{
-    grid-area: descripcion4;
-    padding: 90px 20px 90px 50px;
-}
-
-
-#tierradelfuego{
-    grid-area: tierradelfuego;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 100%;
-    grid-template-areas: "imagen5 descripcion5";
-
-}
-
-#imagen5{
-    max-width: 100%;
-    height: 100%;
-    padding: 2%;
-    grid-area: imagen5;
-
-}
-
-#descripcion5{
-    grid-area: descripcion5;
-    padding: 90px 20px 90px 50px;
-}
 
 
 
