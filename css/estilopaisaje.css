@@ -69,3 +69,24 @@ h2{
 .d-flex{
     background-color:#FFFF;
 }
+
+@media only screen and (max-width: 1199px){
+
+    .contenedor-imagenes{
+        display:flex;
+        width: 95%;
+        margin: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius:3px;
+    }
+    
+    .contenedor-imagenes .imagen{
+        width: 95%;
+        position: relative;
+        height:250px;
+        margin-bottom:25px;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+    }
+
+}

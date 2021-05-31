@@ -1,4 +1,136 @@
+/* MEDIA QUERY */
+
+ 
+
+
+/* TABLET */
+
+@media only screen and (max-width: 1199px) {
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .home__banner{
+
+    
+        max-width:100%;
+        width:auto;
+        height:auto;
+        
+        
+        #banner{
+            max-width: 100%;
+            height: 720px;
+            margin-top: 10px;
+            padding: 25px;
+        }
+
+    }
+
+    .home__descripcion{
+
+        margin: 100px;
+        margin-bottom: 0%;
+        margin-top: 15%;
+
+        
+
+        .home__descripcion__parrafos{
+            font-size: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: initial;
+            padding-bottom: 10px;
+
+            p{
+                font-size: 20px;
+            }
+        }
+
+    }
+    
+    
+    
+    
+    .home__opciones{
+
+        background-color:#FFFFFF;
+        margin: 10%;
+        
+
+        #opcion1{
+            background-color: #E5E5E5;
+            margin: 10px 15.5px 0 15.5;
+            padding: 30px;
+            
+        }
+
+        #opcion2{
+            background-color: #E5E5E5;
+            margin: 10px 15.5px 0 15.5;
+            padding: 30px;
+            
+        }
+
+        #opcion3{
+            background-color: #E5E5E5;
+            margin: 10px 15.5px 0 15.5;
+            padding: 30px;
+            
+        }
+        
+        .lead{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
+    main{
+        background-color: #FFFFFF ;
+    }
+    
+
+
+
+    .info{
+        display: grid;
+        justify-content: center;
+        padding: 90px 0 50px 0;
+        background-color: #FCA311;
+
+        &__h2{
+            text-align: center;
+            font-size: 200%;
+            font-family: 'Roboto', sans-serif;
+            
+            
+        
+        }
+        &__link{
+            text-align: center;
+            text-decoration: none;
+            color: #14213D;
+            font-family: 'Roboto', sans-serif;
+            
+            font-size: 150%;
+        }
+        
+        
+    }
+
+    
+}
+
+
+
+/* CIERRE TABLET */
+
+
+
+@media only screen and (min-width: 1200px){
+
 /* ACTIVIDADES */
+
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -16,7 +148,8 @@
 
   div{
       button{
-                a{
+        
+        a{
         color: white; 
         text-decoration: none;
 
@@ -237,5 +370,7 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
     }
+
+}
 
 }
